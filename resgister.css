@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(163, 163, 163);
+}
+
+body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Wrapper {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 380px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    padding: 10px;
+
+}
+
+.Wrapper .box {
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    border: solid 2px rgb(36, 35, 35);
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+
+
+}
+
+.box input::placeholder {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+
+}
+
+.Wrapper number {
+    display: flex;
+}
+
+.Wrapper input {
+    padding-right: 10px;
+    margin: 5%;
+    border: none;
+    background: transparent;
+    outline: none;
+    min-width: 85%;
+    font-size: 13px;
+    margin: 10px;
+
+}
+
+.Wrapper i {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    padding-top: 4%;
+    padding-right: 2%;
+    color: black;
+}
+
+.box number {
+    display: flex;
+}
+
+
+
+.sub button {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: purple;
+}
